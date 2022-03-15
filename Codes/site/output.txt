@@ -1,0 +1,117 @@
+.
+
+Adafruit Fingerprint sensor enrollment
+Found fingerprint sensor!
+Reading sensor parameters
+Status: 0x0
+Sys ID: 0x0
+Capacity: 300
+Security level: 3
+Device address: FFFFFFFF
+Packet len: 128
+Baud rate: 57600
+Enrolling ID #16
+Waiting for valid finger to enroll as #16
+....
+ Image taken
+Image converted
+Remove finger
+ID 16
+Place same finger again
+...............
+ Image taken
+Image converted
+Creating model for #16
+Prints matched!
+ID 16
+Stored!
+Enrolling ID #17
+Waiting for valid finger to enroll as #17
+....
+ Image taken
+Image converted
+Remove finger
+ID 17
+Place same finger again
+.........
+ Image taken
+Image converted
+Creating model for #17
+Fingerprints did not match
+Enrolling ID #17
+Waiting for valid finger to enroll as #17
+......
+ Image taken
+Image converted
+Remove finger
+ID 17
+Place same finger again
+...........
+ Image taken
+Image converted
+Creating model for #17
+Prints matched!
+ID 17
+Stored!
+Enrolling ID #18
+Waiting for valid finger to enroll as #18
+.........
+ Image taken
+Image converted
+Remove finger
+ID 18
+Place same finger again
+...................
+ Image taken
+Image converted
+Creating model for #18
+Prints matched!
+ID 18
+Stored!
+Enrolling ID #19
+Waiting for valid finger to enroll as #19
+.......
+ Image taken
+Image converted
+Remove finger
+ID 19
+Place same finger again
+.............
+ Image taken
+Image converted
+Creating model for #19
+Prints matched!
+ID 19
+Stored!
+Enrolling ID #20
+Waiting for valid finger to enroll as #20
+....
+ Image taken
+Image converted
+Remove finger
+ID 20
+Place same finger again
+.....................
+ Image taken
+Image converted
+Creating model for #20
+Prints matched!
+ID 20
+Stored!
+Enrolling ID #21
+Waiting for valid finger to enroll as #21
+......
+ Image taken
+Image converted
+Remove finger
+ID 21
+Place same finger again
+............
+ Image taken
+Image converted
+Creating model for #21
+Prints matched!
+ID 21
+Stored!
+Enrolling ID #22
+Waiting for valid finger to enroll as #22

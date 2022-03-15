@@ -1,0 +1,67 @@
+<?php
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "fvs";
+
+$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+
+$query_baran = "select * from users where id=1";
+$result_baran = mysqli_query($con,$query_baran);
+$data_baran = mysqli_fetch_assoc($result_baran);
+$baran_vote = $data_baran["vote"];
+
+$query_ibrahim = "select * from users where id=2";
+$result_ibrahim = mysqli_query($con,$query_ibrahim);
+$data_ibrahim = mysqli_fetch_assoc($result_ibrahim);
+$ibrahim_vote = $data_ibrahim["vote"];
+
+$query_goksu = "select * from users where id=3";
+$result_goksu = mysqli_query($con,$query_goksu);
+$data_goksu = mysqli_fetch_assoc($result_goksu);
+$goksu_vote = $data_goksu["vote"];
+
+$query_burak = "select * from users where id=4";
+$result_burak = mysqli_query($con,$query_burak);
+$data_burak = mysqli_fetch_assoc($result_burak);
+$burak_vote = $data_burak["vote"];
+
+$query_ozlem = "select * from users where id=5";
+$result_ozlem = mysqli_query($con,$query_ozlem);
+$data_ozlem = mysqli_fetch_assoc($result_ozlem);
+$ozlem_vote = $data_ozlem["vote"];
+
+
+
+?>
+var a = 0;
+  var b = 0;
+  var c = 0;
+  var d = 0;
+  var e = 0;
+  var h = 0;
+
+var baran_vote=parseInt("<?php echo $baran_vote; ?>");
+var ibrahim_vote=parseInt("<?php echo $ibrahim_vote; ?>");
+var goksu_vote=parseInt("<?php echo $goksu_vote; ?>");
+var burak_vote=parseInt("<?php echo $burak_vote; ?>");
+var ozlem_vote=parseInt("<?php echo $ozlem_vote; ?>");
+
+if(baran_vote == a or ibrahim_vote == a or goksu_vote == a or burak_vote == a or ozlem_vote == a){
+ a = a+1;
+}
+if(baran_vote == b or ibrahim_vote == b or goksu_vote == b or burak_vote == b or ozlem_vote == b){
+ b= b+1;
+}
+if(baran_vote == c or ibrahim_vote == c or goksu_vote == c or burak_vote == c or ozlem_vote == c){
+ c= c+1;
+}
+if(baran_vote == d or ibrahim_vote == d or goksu_vote == d or burak_vote == d or ozlem_vote == d){
+ d = d+1;
+}
+if(baran_vote == e or ibrahim_vote == e or goksu_vote == e or burak_vote == e or ozlem_vote == e){
+ e = e+1;
+}
+if(baran_vote == h or ibrahim_vote == h or goksu_vote == h or burak_vote == h or ozlem_vote == h){
+ h = h+1;
+}
